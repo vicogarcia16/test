@@ -1,5 +1,6 @@
 import flet as ft
 from config import config_page_sf
+import sys
 
 def main(page: ft.Page):
     page.title = "Dropdown"
@@ -80,7 +81,7 @@ def main(page: ft.Page):
         content=ft.ElevatedButton(
             text="Cerrar",
             icon=ft.icons.CLOSE,
-            on_click=lambda e: page.window.close(),
+            on_click=lambda e: sys.exit(),
             icon_color=ft.colors.WHITE,
             bgcolor=ft.colors.RED_700,
             color=ft.colors.WHITE
