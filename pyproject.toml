@@ -1,0 +1,25 @@
+# This project was generated with 0.3.19 using template: https://github.com/beeware/briefcase-template@v0.3.19
+[tool.briefcase]
+project_name = "app dropdown"
+bundle = "com.appdropdown"
+version = "0.0.1"
+url = "https://vicogarcia.com"
+license.file = "LICENSE"
+author = "Víctor García"
+author_email = "mg_619@hotmail.com"
+
+[tool.briefcase.app.appdropdown]
+formal_name = "app dropdown"
+description = "Test aplication"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/appdropdown",
+]
+test_sources = [
+    "tests",
+]
+requires = [
+    "flet"
+]
+
